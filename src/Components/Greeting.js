@@ -36,7 +36,7 @@ function Greeting() {
 
   const fetchGreeting = async () => {
     axios
-      .get('https://run.mocky.io/v3/dbe281ee-2507-4aaf-a143-c1eff5c08b21')
+      .get('https://run.mocky.io/v3/68d1f1f8-4d13-4089-a916-c797aed760ca')
       .then((response) => {
         const {data} = response
         const {greeting} = data
